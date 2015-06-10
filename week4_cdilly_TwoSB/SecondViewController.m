@@ -8,6 +8,8 @@
 
 #import "SecondViewController.h"
 #import "ViewController.h"
+#import "Note.h"
+#import "NoteSvcCache.h"
 
 @interface SecondViewController ()
 
@@ -18,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+   
 }
 
 - (void)didReceiveMemoryWarning {

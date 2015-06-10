@@ -56,8 +56,6 @@ NoteSvcCache *noteSvcCache = nil;
     NSLog(@"deleteNote: note deleted");
 }
 
-- (IBAction)loadMyList:(id)sender {
-}
 
 // Return the number of notes
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
