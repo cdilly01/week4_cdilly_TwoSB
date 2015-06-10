@@ -10,10 +10,11 @@
 		E7A566021B27F536009C57AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A566011B27F536009C57AA /* main.m */; };
 		E7A566051B27F536009C57AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A566041B27F536009C57AA /* AppDelegate.m */; };
 		E7A566081B27F536009C57AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A566071B27F536009C57AA /* ViewController.m */; };
-		E7A5660B1B27F536009C57AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A566091B27F536009C57AA /* Main.storyboard */; };
 		E7A5660D1B27F536009C57AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A5660C1B27F536009C57AA /* Images.xcassets */; };
-		E7A566101B27F536009C57AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A5660E1B27F536009C57AA /* LaunchScreen.xib */; };
 		E7A5661C1B27F537009C57AA /* week4_cdilly_TwoSBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A5661B1B27F537009C57AA /* week4_cdilly_TwoSBTests.m */; };
+		E7A566311B27F8CB009C57AA /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A566301B27F8CB009C57AA /* Note.m */; };
+		E7A566351B27F937009C57AA /* NoteSvcCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A566341B27F937009C57AA /* NoteSvcCache.m */; };
+		E7A566381B27FB9D009C57AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A566361B27FB9D009C57AA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,16 @@
 		E7A566041B27F536009C57AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E7A566061B27F536009C57AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E7A566071B27F536009C57AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E7A5660A1B27F536009C57AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7A5660C1B27F536009C57AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E7A5660F1B27F536009C57AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E7A566151B27F537009C57AA /* week4_cdilly_TwoSBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week4_cdilly_TwoSBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A5661A1B27F537009C57AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7A5661B1B27F537009C57AA /* week4_cdilly_TwoSBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week4_cdilly_TwoSBTests.m; sourceTree = "<group>"; };
+		E7A5662F1B27F8A5009C57AA /* NoteSvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteSvc.h; sourceTree = "<group>"; };
+		E7A566301B27F8CB009C57AA /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		E7A566321B27F8E5009C57AA /* Note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		E7A566331B27F902009C57AA /* NoteSvcCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteSvcCache.h; sourceTree = "<group>"; };
+		E7A566341B27F937009C57AA /* NoteSvcCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteSvcCache.m; sourceTree = "<group>"; };
+		E7A566371B27FB9D009C57AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Users/AStudent/Desktop/week3_cdilly_sb/week3_cdilly_sb/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +86,13 @@
 		E7A565FE1B27F536009C57AA /* week4_cdilly_TwoSB */ = {
 			isa = PBXGroup;
 			children = (
+				E7A566361B27FB9D009C57AA /* Main.storyboard */,
+				E7A566251B27F6D4009C57AA /* Model */,
 				E7A566031B27F536009C57AA /* AppDelegate.h */,
 				E7A566041B27F536009C57AA /* AppDelegate.m */,
 				E7A566061B27F536009C57AA /* ViewController.h */,
 				E7A566071B27F536009C57AA /* ViewController.m */,
-				E7A566091B27F536009C57AA /* Main.storyboard */,
 				E7A5660C1B27F536009C57AA /* Images.xcassets */,
-				E7A5660E1B27F536009C57AA /* LaunchScreen.xib */,
 				E7A565FF1B27F536009C57AA /* Supporting Files */,
 			);
 			path = week4_cdilly_TwoSB;
@@ -117,6 +122,18 @@
 				E7A5661A1B27F537009C57AA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7A566251B27F6D4009C57AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7A5662F1B27F8A5009C57AA /* NoteSvc.h */,
+				E7A566301B27F8CB009C57AA /* Note.m */,
+				E7A566321B27F8E5009C57AA /* Note.h */,
+				E7A566331B27F902009C57AA /* NoteSvcCache.h */,
+				E7A566341B27F937009C57AA /* NoteSvcCache.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7A5660B1B27F536009C57AA /* Main.storyboard in Resources */,
-				E7A566101B27F536009C57AA /* LaunchScreen.xib in Resources */,
+				E7A566381B27FB9D009C57AA /* Main.storyboard in Resources */,
 				E7A5660D1B27F536009C57AA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A566081B27F536009C57AA /* ViewController.m in Sources */,
+				E7A566351B27F937009C57AA /* NoteSvcCache.m in Sources */,
 				E7A566051B27F536009C57AA /* AppDelegate.m in Sources */,
 				E7A566021B27F536009C57AA /* main.m in Sources */,
+				E7A566311B27F8CB009C57AA /* Note.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +262,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E7A566091B27F536009C57AA /* Main.storyboard */ = {
+		E7A566361B27FB9D009C57AA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E7A5660A1B27F536009C57AA /* Base */,
+				E7A566371B27FB9D009C57AA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E7A5660E1B27F536009C57AA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7A5660F1B27F536009C57AA /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
