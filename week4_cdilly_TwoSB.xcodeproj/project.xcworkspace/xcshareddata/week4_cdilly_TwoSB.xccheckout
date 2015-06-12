@@ -7,7 +7,7 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>9BC3DEAA-F9C6-415E-B159-CB5B4627CAEA</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>week4_cdilly_TwoSB</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>0ACCC0BB7D29FC6A14C09600658C7E3C0992A0DB</key>
@@ -16,11 +16,11 @@
 		<string>https://github.com/cdilly01/week4_cdilly_TwoSB.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>week4_cdilly_TwoSB.xcodeproj/project.xcworkspace</string>
+	<string>week4_cdilly_TwoSB.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>0ACCC0BB7D29FC6A14C09600658C7E3C0992A0DB</key>
-		<string>../../../../Users/AStudent/Desktop/week3_cdilly_sb</string>
+		<string>../../../Users/AStudent/Desktop/week3_cdilly_sb</string>
 		<key>8AC545DBC70431478C943203996AE6A8B1E0F047</key>
 		<string>../..</string>
 	</dict>
