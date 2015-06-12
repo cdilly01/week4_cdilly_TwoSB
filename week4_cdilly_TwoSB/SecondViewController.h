@@ -14,5 +14,6 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *secondTableView;
 
-
+- (NSInteger)tableView:(UITableView *)secondTableView
+       numberOfRowsInSection:(NSInteger)section;
 @end
